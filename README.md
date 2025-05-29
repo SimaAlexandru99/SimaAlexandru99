@@ -34,7 +34,7 @@ I also run my own freelance branding & web design studio, where I help businesse
 ## 🚀 Current Projects
 
 - 🔄 **RPA automations** for internal systems @ Optima Solutions
-- 🌐 **Freelance websites** for eCommerce and branding via GRIGORE PFA
+- 🌐 **Freelance websites** for eCommerce and branding via SIMA ALEXANDRU GRIGORE PFA
 - 🧪 Experimenting with **Supabase + Next.js + Tailwind CSS**
 
 ---
