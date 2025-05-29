@@ -60,6 +60,12 @@ I also run my own freelance branding & web design studio, where I help businesse
 
 ---
 
+## 📘 Currently Learning
+- Supabase
+- Docker orchestration
+- Advanced Git workflows
+
+---
 ## 🤝 Let's Collaborate
 I love building smart automations and responsive UIs.  
 Got a cool project or idea? Let’s build it together → [sima.alex33@gmail.com](mailto:sima.alex33@gmail.com)
