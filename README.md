@@ -52,7 +52,7 @@ I also run my own freelance branding & web design studio, where I help businesse
 
 - ✉️ [sima.alex33@gmail.com](mailto:sima.alex33@gmail.com)
 - 🌐 [nextjourney.ro](https://nextjourney.ro)
-- 🔗 [LinkedIn](https://www.linkedin.com) *(adaugă linkul tău real aici)*
+- 🔗 [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/sima-alexandru-grigore-828811170/)) *(adaugă linkul tău real aici)*
 
 ---
 
