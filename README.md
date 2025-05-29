@@ -60,5 +60,10 @@ I also run my own freelance branding & web design studio, where I help businesse
 
 ---
 
+## 🤝 Let's Collaborate
+I love building smart automations and responsive UIs.  
+Got a cool project or idea? Let’s build it together → [sima.alex33@gmail.com](mailto:sima.alex33@gmail.com)
+
+
 > “The best way to predict the future is to create it.” – Peter Drucker
 
