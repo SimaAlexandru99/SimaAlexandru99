@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/main/banner.png" alt="Alexandru Sima Banner" />
+</p>
+
 # 👋 Hey there, I'm Alexandru Sima!
 
 🎯 **IT Professional | System Administrator | RPA & Web Developer**  
