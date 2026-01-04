@@ -90,11 +90,14 @@ Currently building **AI-powered SaaS products** (Dialyx, Chatyx) while running m
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SimaAlexandru99&show_icons=true&theme=tokyonight&hide_border=true)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SimaAlexandru99&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/SimaAlexandru99)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SimaAlexandru99&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SimaAlexandru99&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)](https://github.com/SimaAlexandru99)
+
+[![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=SimaAlexandru99&theme=tokyonight&hide_border=true)](https://github.com/SimaAlexandru99)
 
 </div>
+
 
 ---
 
