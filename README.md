@@ -74,8 +74,9 @@ I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build the
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SimaAlexandru99&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show=prs_merged,prs_merged_percentage"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SimaAlexandru99&layout=compact&theme=tokyonight&hide_border=true&size_weight=0.5&count_weight=0.5"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SimaAlexandru99&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+&nbsp;&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SimaAlexandru99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 
 <br/>
 
@@ -96,30 +97,6 @@ I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build the
 </picture>
 
 </div>
-
-> ⚙️ **Setup:** Add this GitHub Action to `.github/workflows/snake.yml`:
-> ```yaml
-> name: Generate Snake
-> on:
->   schedule: [{ cron: "0 0 * * *" }]
->   workflow_dispatch:
-> jobs:
->   generate:
->     runs-on: ubuntu-latest
->     steps:
->       - uses: Platane/snk@v3
->         with:
->           github_user_name: SimaAlexandru99
->           outputs: |
->             dist/github-contribution-grid-snake.svg
->             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
->       - uses: crazy-max/ghaction-github-pages@v3
->         with:
->           target_branch: output
->           build_dir: dist
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
 
 ---
 
