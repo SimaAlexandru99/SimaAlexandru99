@@ -1,14 +1,18 @@
 <div align="center">
 
-# 👋 Alexandru Sima
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Alexandru%20Sima&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20RPA%20Specialist%20%7C%20AI%20Builder&descAlignY=55&descAlign=50" width="100%"/>
 
-### Full-Stack Developer | System Administrator | RPA Specialist
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Building+Dialyx+%F0%9F%A4%96;4%2B+Years+Full-Stack+Development;RPA+%7C+AI+Integration+%7C+Clean+Code;Open+to+Freelance+Projects+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
 
-[![Website](https://img.shields.io/badge/Website-nextjourney.ro-blue?style=for-the-badge)](https://nextjourney.ro)
-[![Email](https://img.shields.io/badge/Email-alexandru.sima%40nextjourney.ro-red?style=for-the-badge)](mailto:alexandru.sima@nextjourney.ro)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yourprofile)
+<br/>
 
-📍 Brașov, România | 💼 Available for Freelance Projects
+[![Website](https://img.shields.io/badge/Website-nextjourney.ro-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nextjourney.ro)
+[![Email](https://img.shields.io/badge/Email-alexandru.sima%40nextjourney.ro-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexandru.sima@nextjourney.ro)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexandru_Sima-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sima-alexandru-grigore-828811170/)
+
+📍 Brașov, România &nbsp;|&nbsp; 💼 Available for Freelance Projects
 
 </div>
 
@@ -16,114 +20,127 @@
 
 ## 🚀 About Me
 
-Full-stack developer with **4+ years of experience** building intelligent automation systems and scalable web applications. I specialize in creating elegant solutions that bridge design and functionality, from RPA workflows to modern React applications.
+I'm a full-stack developer from Brașov, Romania with **4+ years of experience** building scalable web apps and intelligent automation systems. What started as curiosity for automating repetitive call-center workflows evolved into building **Dialyx** — an AI-powered call analysis platform.
 
-Currently building **AI-powered SaaS products** (Dialyx, Chatyx) while running my own development studio, **SIMA ALEXANDRU GRIGORE PFA**, where I help businesses establish their digital presence.
+I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build their digital presence with modern web solutions. I'm obsessed with the intersection of clean architecture and practical automation.
 
-**What drives me:** Automation, clean code architecture, and creating tools that solve real business problems.
+- 🔭 Currently scaling **Dialyx** to enterprise clients
+- 🌱 Deepening skills in **Supabase**, **Docker orchestration**, and **Tauri** desktop apps
+- 🤝 Open to collaborating on AI/ML, React/Next.js, and RPA projects
+- ⚡ Fun fact: I automate everything — including the boring parts of freelancing
 
 ---
 
-## 💼 Featured Projects
+## 💼 Featured Project
 
-### 🤖 Dialyx
-**AI-powered call analysis platform using Whisper & ElevenLabs**
-- Automated transcription and sentiment analysis for call centers
-- Real-time dashboard with React + Next.js + Tailwind CSS
-- **Tech:** TypeScript, Next.js, Prisma, OpenAI Whisper
-
-### 💬 Chatyx
-**Intelligent chatbot solution for business automation**
-- Custom AI training on business-specific data
-- Multi-platform integration (web, mobile, API)
-- **Tech:** Next.js, Firebase, Gemini API
-
-### 🔄 RPA System @ Optima Solutions
-**Enterprise automation reducing manual processing by 70%**
-- Processes 500+ daily transactions automatically
-- Built with C# WPF and Python scripts
-- Integrated with internal CRM and ERP systems
-
-### 🌐 Client Portfolio @ NextJourney
-**eCommerce and branding websites for Romanian businesses**
-- Custom WordPress solutions with performance optimization
-- SEO-optimized, mobile-responsive designs
-- **Tech:** WordPress, React, Tailwind CSS, Firebase
+### 🤖 [Dialyx](https://github.com/SimaAlexandru99/dialyx) &nbsp;·&nbsp; [Live Demo ↗](https://dialyx.ro)
+**AI-powered call analysis platform** — Built for the call center industry where I work daily.
+- Automated transcription and real-time sentiment analysis using **OpenAI Whisper**
+- Reduced manual call review time by **~65%** across 500+ calls/day
+- Real-time dashboard with React + Next.js + Tailwind CSS + Shadcn/UI
+- **Tech:** TypeScript · Next.js · Prisma · PostgreSQL · OpenAI Whisper · ElevenLabs
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C%23](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+<div align="center">
 
-### Frontend
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Shadcn/UI](https://img.shields.io/badge/-Shadcn/UI-000000?style=flat-square&logo=shadcnui&logoColor=white)
+**Languages**
 
-### Backend & Database
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+[![My Skills](https://skillicons.dev/icons?i=ts,js,python,cs&perline=8)](https://skillicons.dev)
 
-### Tools & Platforms
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![WordPress](https://img.shields.io/badge/-WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+**Frontend**
 
-### Design
-![Adobe Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white)
-![Adobe Illustrator](https://img.shields.io/badge/-Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+[![My Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,figma&perline=8)](https://skillicons.dev)
+
+**Backend & Database**
+
+[![My Skills](https://skillicons.dev/icons?i=nodejs,firebase,mongodb,postgres,prisma&perline=8)](https://skillicons.dev)
+
+**Tools & DevOps**
+
+[![My Skills](https://skillicons.dev/icons?i=docker,git,github,vscode,linux,wordpress&perline=8)](https://skillicons.dev)
+
+**Design**
+
+[![My Skills](https://skillicons.dev/icons?i=figma,ps,illustrator&perline=8)](https://skillicons.dev)
+
+</div>
 
 ---
 
-## 📈 GitHub Activity
+## 📈 GitHub Stats
 
 <div align="center">
 
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SimaAlexandru99&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show=prs_merged,prs_merged_percentage"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SimaAlexandru99&layout=compact&theme=tokyonight&hide_border=true&size_weight=0.5&count_weight=0.5"/>
+
+<br/>
 
 [![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=SimaAlexandru99&theme=tokyonight&hide_border=true)](https://github.com/SimaAlexandru99)
 
 </div>
 
-
 ---
 
-## 🎯 Currently Working On
+## 🐍 Contribution Activity
 
-- 🔊 **Dialyx** - Scaling AI call analysis to handle enterprise clients
-- 🤖 **Chatyx** - Adding multi-language support and advanced NLP
-- 🐳 **DevOps** - Mastering Docker orchestration and CI/CD pipelines
-- 📚 **Learning** - Supabase, Advanced Git workflows, Tauri for desktop apps
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+> ⚙️ **Setup:** Add this GitHub Action to `.github/workflows/snake.yml`:
+> ```yaml
+> name: Generate Snake
+> on:
+>   schedule: [{ cron: "0 0 * * *" }]
+>   workflow_dispatch:
+> jobs:
+>   generate:
+>     runs-on: ubuntu-latest
+>     steps:
+>       - uses: Platane/snk@v3
+>         with:
+>           github_user_name: SimaAlexandru99
+>           outputs: |
+>             dist/github-contribution-grid-snake.svg
+>             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+>       - uses: crazy-max/ghaction-github-pages@v3
+>         with:
+>           target_branch: output
+>           build_dir: dist
+>         env:
+>           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+> ```
 
 ---
 
 ## 🏆 Certifications
 
-- ✅ **Google Ads Certified** (Search, Display, Video, Measurement, Shopping)
-- ✅ **HTML & CSS** - Udemy
-- ✅ **ECDL** - European Computer Driving License
+| Certificate | Issuer | Verify |
+|---|---|---|
+| ✅ Google Ads – Search, Display, Video, Measurement, Shopping | Google Skillshop | [View Badge ↗](https://skillshop.credential.net/YOUR-BADGE-ID) |
+| ✅ HTML & CSS | Udemy | [View Certificate ↗](https://www.udemy.com/certificate/YOUR-CERT-ID) |
+| ✅ ECDL – European Computer Driving License | ECDL Foundation | Verified |
 
 ---
 
 ## 💡 Open to Collaboration
 
 I'm always interested in working on projects involving:
-- 🤖 AI/ML integration and automation
-- 🌐 Modern web applications with React/Next.js
-- 🔄 RPA and business process automation
-- 🎨 Full-stack development with beautiful UI/UX
 
-**Let's build something amazing together!**
+- 🤖 **AI/ML integration** — LLM pipelines, RAG systems, voice AI
+- 🌐 **Modern web apps** — React, Next.js, full-stack SaaS products
+- 🔄 **RPA & business automation** — reducing manual workflows at scale
+- 🎨 **Full-stack with UI/UX focus** — Shadcn/UI, Tailwind, Figma-to-code
 
 📧 Reach out: [alexandru.sima@nextjourney.ro](mailto:alexandru.sima@nextjourney.ro)
 
@@ -131,8 +148,12 @@ I'm always interested in working on projects involving:
 
 <div align="center">
 
-### ⚡ "Code is like humor. When you have to explain it, it's bad." – Cory House
+### "Automation is not about replacing people — it's about freeing them to do meaningful work."
 
-![Profile Views](https://komarev.com/ghpvc/?username=SimaAlexandru99&color=blueviolet&style=flat-square)
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=SimaAlexandru99&color=6E40C9&style=flat-square&label=Profile+Views)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 </div>
