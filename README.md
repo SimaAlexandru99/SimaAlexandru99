@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Alexandru%20Sima&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20RPA%20Specialist%20%7C%20AI%20Builder&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Alexandru%20Sima&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20RPA%20Specialist%20%7C%20AI%20Builder&descAlignY=55&descAlign=50" width="100%" alt="Header"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Building+Dialyx+%F0%9F%A4%96;4%2B+Years+Full-Stack+Development;RPA+%7C+AI+Integration+%7C+Clean+Code;Open+to+Freelance+Projects+%F0%9F%9A%80" alt="Typing SVG" />
@@ -34,7 +34,9 @@ I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build the
 ## 💼 Featured Project
 
 ### 🤖 [Dialyx](https://github.com/SimaAlexandru99/dialyx) &nbsp;·&nbsp; [Live Demo ↗](https://dialyx.ro)
+
 **AI-powered call analysis platform** — Built for the call center industry where I work daily.
+
 - Automated transcription and real-time sentiment analysis using **OpenAI Whisper**
 - Reduced manual call review time by **~65%** across 500+ calls/day
 - Real-time dashboard with React + Next.js + Tailwind CSS + Shadcn/UI
@@ -46,23 +48,23 @@ I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build the
 
 <div align="center">
 
-**Languages**
+### Languages
 
 [![My Skills](https://skillicons.dev/icons?i=ts,js,python,cs&perline=8)](https://skillicons.dev)
 
-**Frontend**
+### Frontend
 
 [![My Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,figma&perline=8)](https://skillicons.dev)
 
-**Backend & Database**
+### Backend & Database
 
 [![My Skills](https://skillicons.dev/icons?i=nodejs,firebase,mongodb,postgres,prisma&perline=8)](https://skillicons.dev)
 
-**Tools & DevOps**
+### Tools & DevOps
 
 [![My Skills](https://skillicons.dev/icons?i=docker,git,github,vscode,linux,wordpress&perline=8)](https://skillicons.dev)
 
-**Design**
+### Design
 
 [![My Skills](https://skillicons.dev/icons?i=figma,ps,illustrator&perline=8)](https://skillicons.dev)
 
@@ -74,13 +76,13 @@ I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build the
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SimaAlexandru99&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SimaAlexandru99&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SimaAlexandru99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SimaAlexandru99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
 
 <br/>
 
-[![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=SimaAlexandru99&theme=tokyonight&hide_border=true)](https://github.com/SimaAlexandru99)
+[![GitHub Streak](https://streak-stats.demolab.com?user=SimaAlexandru99&theme=tokyonight&hide_border=true)](https://github.com/SimaAlexandru99)
 
 </div>
 
@@ -103,7 +105,7 @@ I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build the
 ## 🏆 Certifications
 
 | Certificate | Issuer | Verify |
-|---|---|---|
+| --- | --- | --- |
 | ✅ Google Ads – Search, Display, Video, Measurement, Shopping | Google Skillshop | [View Badge ↗](https://skillshop.credential.net/YOUR-BADGE-ID) |
 | ✅ HTML & CSS | Udemy | [View Certificate ↗](https://www.udemy.com/certificate/YOUR-CERT-ID) |
 | ✅ ECDL – European Computer Driving License | ECDL Foundation | Verified |
@@ -131,6 +133,6 @@ I'm always interested in working on projects involving:
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SimaAlexandru99&color=6E40C9&style=flat-square&label=Profile+Views)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="Footer"/>
 
 </div>
