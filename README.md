@@ -76,12 +76,6 @@ I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build the
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SimaAlexandru99&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
-&nbsp;&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SimaAlexandru99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-<br/>
-
 [![GitHub Streak](https://streak-stats.demolab.com?user=SimaAlexandru99&theme=tokyonight&hide_border=true)](https://github.com/SimaAlexandru99)
 
 </div>
