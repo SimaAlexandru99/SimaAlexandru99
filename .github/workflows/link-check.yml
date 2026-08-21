@@ -44,6 +44,8 @@ jobs:
           # this account's private repos answer 200, which would hide the exact
           # bug this job exists to catch: linking a repo the public cannot open.
           UA: "readme-link-check (+https://github.com/SimaAlexandru99/SimaAlexandru99)"
+          # Roughly where GitHub's camo image proxy stops waiting.
+          SLOW_TTFB: "5.0"
         run: |
           set -uo pipefail
 
@@ -66,13 +68,24 @@ jobs:
           bot_blockers='^https?://([a-z0-9-]+\.)*(linkedin\.com|x\.com|twitter\.com|facebook\.com|instagram\.com)/'
 
           for url in "${urls[@]}"; do
-            code=$(curl -sS -o /dev/null -w '%{http_code}' -L \
+            read -r code ttfb <<<"$(curl -sS -o /dev/null \
+                     -w '%{http_code} %{time_starttransfer}' -L \
                      --max-time 25 --retry 2 --retry-delay 3 \
-                     -A "$UA" "$url" 2>/dev/null || echo "000")
+                     -A "$UA" "$url" 2>/dev/null || echo "000 0")"
 
             case "$code" in
               2??|3??)
-                echo "  ok   $code  $url"
+                # A 200 is not enough for an image. GitHub proxies README
+                # images through camo, which gives up after a few seconds --
+                # so an endpoint that cold-starts for 20s renders as a broken
+                # image even though curl eventually gets a 200. That is
+                # exactly how a dead streak badge slipped past this check.
+                if awk "BEGIN{exit !($ttfb > $SLOW_TTFB)}"; then
+                  echo "::warning file=README.md::Slow (${ttfb}s to first byte): $url -- likely to render broken via camo"
+                  warned=$((warned + 1))
+                else
+                  echo "  ok   $code  ${ttfb}s  $url"
+                fi
                 ;;
               404|410)
                 # Unambiguously dead. This is the failure we care about.
