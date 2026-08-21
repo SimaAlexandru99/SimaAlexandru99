@@ -1,0 +1,90 @@
+name: Check README links
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - .github/workflows/link-check.yml
+  pull_request:
+    paths:
+      - README.md
+      - .github/workflows/link-check.yml
+  schedule:
+    # Weekly, so a link that rots on its own (a repo flipped to private,
+    # a domain lapsing) surfaces without waiting for the next edit.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fail on template placeholders
+        run: |
+          if grep -nE 'YOUR-[A-Z0-9-]+|YOUR_[A-Z0-9_]+|<!-- *TODO|LOREM' README.md; then
+            echo "::error file=README.md::README still contains template placeholders"
+            exit 1
+          fi
+          echo "No placeholders found."
+
+      - name: Check every link the way an anonymous visitor sees it
+        env:
+          # Deliberately NOT using GITHUB_TOKEN. An authenticated request makes
+          # this account's private repos answer 200, which would hide the exact
+          # bug this job exists to catch: linking a repo the public cannot open.
+          UA: "readme-link-check (+https://github.com/SimaAlexandru99/SimaAlexandru99)"
+        run: |
+          set -uo pipefail
+
+          mapfile -t urls < <(
+            grep -oE 'https?://[^][ )"'"'"'<>]+' README.md \
+              | sed -E 's/[.,;:]+$//' \
+              | sort -u
+          )
+
+          echo "Found ${#urls[@]} unique URLs."
+          dead=0
+          warned=0
+
+          for url in "${urls[@]}"; do
+            code=$(curl -sS -o /dev/null -w '%{http_code}' -L \
+                     --max-time 25 --retry 2 --retry-delay 3 \
+                     -A "$UA" "$url" 2>/dev/null || echo "000")
+
+            case "$code" in
+              2??|3??)
+                echo "  ok   $code  $url"
+                ;;
+              404|410)
+                # Unambiguously dead. This is the failure we care about.
+                echo "::error file=README.md::Dead link ($code): $url"
+                dead=$((dead + 1))
+                ;;
+              *)
+                # Rate limits, hotlink blocks and transient 5xx are common for
+                # badge services. Surface them, but never fail the build on
+                # them: a link checker that cries wolf is a link checker that
+                # gets ignored.
+                echo "::warning file=README.md::Unverified ($code): $url"
+                warned=$((warned + 1))
+                ;;
+            esac
+          done
+
+          echo
+          echo "dead=$dead  unverified=$warned  total=${#urls[@]}"
+          if [ "$dead" -gt 0 ]; then
+            echo "::error::$dead link(s) are dead for anonymous visitors."
+            exit 1
+          fi

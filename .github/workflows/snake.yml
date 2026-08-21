@@ -8,13 +8,22 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  # A slow run must never race the next night's run into the output branch.
+  group: generate-snake
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Scheduled workflows keep firing in forks, where they would fail on push
+    # or overwrite the fork's own output branch. Only run on the origin.
+    if: github.repository_owner == 'SimaAlexandru99'
     steps:
       - uses: Platane/snk@v3
         with:
-          github_user_name: SimaAlexandru99
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
