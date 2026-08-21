@@ -33,7 +33,7 @@ Romanian businesses.
 
 ## 💼 Featured Work
 
-### 🤖 Dialyx &nbsp;·&nbsp; [dialyx.ro ↗](https://dialyx.ro)
+### 🤖 Dialyx
 
 **AI-powered call analysis** — built for the industry I work in every day. Supervisors used to sample
 calls by hand; Dialyx transcribes all of them and surfaces the ones worth a human's attention.
