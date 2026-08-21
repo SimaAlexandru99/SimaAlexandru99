@@ -1,46 +1,62 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Alexandru%20Sima&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20RPA%20Specialist%20%7C%20AI%20Builder&descAlignY=55&descAlign=50" width="100%" alt="Header"/>
+# Alexandru Sima
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Building+Dialyx+%F0%9F%A4%96;4%2B+Years+Full-Stack+Development;RPA+%7C+AI+Integration+%7C+Clean+Code;Open+to+Freelance+Projects+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
-
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%7C+Automation+%7C+AI;Building+Dialyx+%F0%9F%A4%96;4%2B+Years+Shipping+Web+Apps;Open+to+Freelance+Projects+%F0%9F%9A%80" alt="Full-stack developer, automation and AI. Building Dialyx. 4+ years shipping web apps. Open to freelance projects." />
 
 [![Website](https://img.shields.io/badge/Website-nextjourney.ro-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nextjourney.ro)
 [![Email](https://img.shields.io/badge/Email-alexandru.sima%40nextjourney.ro-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexandru.sima@nextjourney.ro)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexandru_Sima-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sima-alexandru-grigore-828811170/)
 
-📍 Brașov, România &nbsp;|&nbsp; 💼 Available for Freelance Projects
+📍 Brașov, România &nbsp;|&nbsp; 💼 Available for freelance projects
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 🚀 About
 
-I'm a full-stack developer from Brașov, Romania with **4+ years of experience** building scalable web apps and intelligent automation systems. What started as curiosity for automating repetitive call-center workflows evolved into building **Dialyx** — an AI-powered call analysis platform.
+I'm a full-stack developer with **4+ years of experience**, based in Brașov. I work on a call-center
+floor, and that's where most of my ideas come from — I keep running into workflows nobody should be
+doing by hand, and then I build the thing that does them instead.
 
-I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build their digital presence with modern web solutions. I'm obsessed with the intersection of clean architecture and practical automation.
+That's how **Dialyx** started. I also run **SIMA ALEXANDRU GRIGORE PFA**, building web work for
+Romanian businesses.
 
-- 🔭 Currently scaling **Dialyx** to enterprise clients
-- 🌱 Deepening skills in **Supabase**, **Docker orchestration**, and **Tauri** desktop apps
-- 🤝 Open to collaborating on AI/ML, React/Next.js, and RPA projects
+- 🔭 Scaling **Dialyx** toward enterprise use
+- 🌱 Going deeper on **Supabase**, **Docker orchestration** and **Tauri**
+- 🧰 Lately I write a lot of tooling for coding agents — see `agentscan` below
+- 🤝 Open to collaborating on AI/LLM, Next.js and automation projects
 - ⚡ Fun fact: I automate everything — including the boring parts of freelancing
 
 ---
 
-## 💼 Featured Project
+## 💼 Featured Work
 
-### 🤖 [Dialyx](https://github.com/SimaAlexandru99/dialyx) &nbsp;·&nbsp; [Live Demo ↗](https://dialyx.ro)
+### 🤖 Dialyx &nbsp;·&nbsp; [dialyx.ro ↗](https://dialyx.ro)
 
-**AI-powered call analysis platform** — Built for the call center industry where I work daily.
+**AI-powered call analysis** — built for the industry I work in every day. Supervisors used to sample
+calls by hand; Dialyx transcribes all of them and surfaces the ones worth a human's attention.
 
-- Automated transcription and real-time sentiment analysis using **OpenAI Whisper**
-- Reduced manual call review time by **~65%** across 500+ calls/day
-- Real-time dashboard with React + Next.js + Tailwind CSS + Shadcn/UI
-- **Tech:** TypeScript · Next.js · Prisma · PostgreSQL · OpenAI Whisper · ElevenLabs
+- Automated transcription and sentiment analysis over a queue of **500+ calls/day**
+- On our own internal review workflow, it cut manual review time by roughly **two thirds**
+- **Stack:** TypeScript · Next.js · Prisma · PostgreSQL · Whisper · ElevenLabs · Tailwind · shadcn/ui
+
+> Dialyx is closed source. Happy to walk through the architecture on a call.
+
+---
+
+## 🔧 Open Source
+
+Things you can actually open and read:
+
+| Project | What it is |
+| --- | --- |
+| **[agentscan](https://github.com/SimaAlexandru99/agentscan)** <br/> `TypeScript` · `MIT` | A deterministic CLI that inventories agent skills, hooks and MCP servers against your `package.json`. Report-only by design — it tells you what you have, it never edits your project. |
+| **[rhf-tanstack-form-skill](https://github.com/SimaAlexandru99/rhf-tanstack-form-skill)** <br/> `MIT` | An agent skill that migrates forms between React Hook Form and TanStack Form. Published on skills.sh. |
+| **[next-bun-client-hook-repro](https://github.com/SimaAlexandru99/next-bun-client-hook-repro)** <br/> `TypeScript` | Minimal repro: `bun --bun next build` logs `CLIENT_HOOK_DYNAMIC` on Cache Components while Node stays silent — and both exit 0. |
+
+→ [All my public repositories](https://github.com/SimaAlexandru99?tab=repositories)
 
 ---
 
@@ -50,83 +66,66 @@ I run **SIMA ALEXANDRU GRIGORE PFA**, where I help Romanian businesses build the
 
 ### Languages
 
-[![My Skills](https://skillicons.dev/icons?i=ts,js,python,cs&perline=8)](https://skillicons.dev)
+![TypeScript, JavaScript, Python, C#](https://skillicons.dev/icons?i=ts,js,python,cs&perline=8)
 
 ### Frontend
 
-[![My Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,figma&perline=8)](https://skillicons.dev)
+![React, Next.js, Tailwind CSS, HTML, CSS, Figma](https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,figma&perline=8)
 
 ### Backend & Database
 
-[![My Skills](https://skillicons.dev/icons?i=nodejs,firebase,mongodb,postgres,prisma&perline=8)](https://skillicons.dev)
+![Node.js, Bun, Firebase, MongoDB, PostgreSQL, Prisma, Supabase](https://skillicons.dev/icons?i=nodejs,bun,firebase,mongodb,postgres,prisma,supabase&perline=8)
+
+### AI & Automation
+
+`OpenAI` &nbsp; `Whisper` &nbsp; `ElevenLabs` &nbsp; `MCP` &nbsp; `Agent skills` &nbsp; `Python scripting`
 
 ### Tools & DevOps
 
-[![My Skills](https://skillicons.dev/icons?i=docker,git,github,vscode,linux,wordpress&perline=8)](https://skillicons.dev)
+![Docker, Git, GitHub, VS Code, Linux, WordPress](https://skillicons.dev/icons?i=docker,git,github,vscode,linux,wordpress&perline=8)
 
 ### Design
 
-[![My Skills](https://skillicons.dev/icons?i=figma,ps,illustrator&perline=8)](https://skillicons.dev)
+![Figma, Photoshop, Illustrator](https://skillicons.dev/icons?i=figma,ps,illustrator&perline=8)
 
 </div>
 
 ---
 
-## 📈 GitHub Stats
+## 📈 Activity
 
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=SimaAlexandru99&theme=tokyonight&hide_border=true)](https://github.com/SimaAlexandru99)
 
-</div>
-
----
-
-## 🐍 Contribution Activity
-
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/output/github-contribution-grid-snake.svg">
+  <img alt="A snake animation eating the squares of my GitHub contribution graph" src="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/output/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
 
 ---
 
-## 🏆 Certifications
+## 💡 Work With Me
 
-| Certificate | Issuer | Verify |
-| --- | --- | --- |
-| ✅ Google Ads – Search, Display, Video, Measurement, Shopping | Google Skillshop | [View Badge ↗](https://skillshop.credential.net/YOUR-BADGE-ID) |
-| ✅ HTML & CSS | Udemy | [View Certificate ↗](https://www.udemy.com/certificate/YOUR-CERT-ID) |
-| ✅ ECDL – European Computer Driving License | ECDL Foundation | Verified |
+I take on projects involving:
 
----
+- 🤖 **AI/LLM integration** — transcription and voice pipelines, RAG, agent tooling
+- 🌐 **Modern web apps** — React, Next.js, full-stack SaaS
+- 🔄 **Business automation** — turning manual, repetitive workflows into software
+- 🎨 **Full-stack with a UI/UX eye** — shadcn/ui, Tailwind, Figma-to-code
 
-## 💡 Open to Collaboration
+If you have a workflow that eats hours every week, that's the conversation I enjoy most.
 
-I'm always interested in working on projects involving:
-
-- 🤖 **AI/ML integration** — LLM pipelines, RAG systems, voice AI
-- 🌐 **Modern web apps** — React, Next.js, full-stack SaaS products
-- 🔄 **RPA & business automation** — reducing manual workflows at scale
-- 🎨 **Full-stack with UI/UX focus** — Shadcn/UI, Tailwind, Figma-to-code
-
-📧 Reach out: [alexandru.sima@nextjourney.ro](mailto:alexandru.sima@nextjourney.ro)
+📧 **[alexandru.sima@nextjourney.ro](mailto:alexandru.sima@nextjourney.ro)** &nbsp;·&nbsp;
+🌐 **[nextjourney.ro](https://nextjourney.ro)**
 
 ---
 
 <div align="center">
 
-### "Automation is not about replacing people — it's about freeing them to do meaningful work."
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=SimaAlexandru99&color=6E40C9&style=flat-square&label=Profile+Views)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="Footer"/>
+***"Automation is not about replacing people — it's about freeing them to do meaningful work."***
 
 </div>
