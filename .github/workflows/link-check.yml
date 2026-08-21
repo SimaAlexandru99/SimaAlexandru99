@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Fail on template placeholders
         run: |
@@ -56,6 +56,14 @@ jobs:
           echo "Found ${#urls[@]} unique URLs."
           dead=0
           warned=0
+          skipped=0
+
+          # Hosts that deliberately refuse automated clients from datacenter
+          # IPs. LinkedIn answers 999 to every CI runner, forever. Reporting
+          # that as a warning on every single run just teaches everyone to
+          # ignore warnings, so these are reported as skipped instead.
+          # A hard 404/410 from them is still a failure — see the case below.
+          bot_blockers='^https?://([a-z0-9-]+\.)*(linkedin\.com|x\.com|twitter\.com|facebook\.com|instagram\.com)/'
 
           for url in "${urls[@]}"; do
             code=$(curl -sS -o /dev/null -w '%{http_code}' -L \
@@ -72,18 +80,23 @@ jobs:
                 dead=$((dead + 1))
                 ;;
               *)
-                # Rate limits, hotlink blocks and transient 5xx are common for
-                # badge services. Surface them, but never fail the build on
-                # them: a link checker that cries wolf is a link checker that
-                # gets ignored.
-                echo "::warning file=README.md::Unverified ($code): $url"
-                warned=$((warned + 1))
+                if [[ "$url" =~ $bot_blockers ]]; then
+                  echo "  skip $code  $url  (host blocks automated checks)"
+                  skipped=$((skipped + 1))
+                else
+                  # Rate limits, hotlink blocks and transient 5xx are common
+                  # for badge services. Surface them, but never fail the build
+                  # on them: a link checker that cries wolf is a link checker
+                  # that gets ignored.
+                  echo "::warning file=README.md::Unverified ($code): $url"
+                  warned=$((warned + 1))
+                fi
                 ;;
             esac
           done
 
           echo
-          echo "dead=$dead  unverified=$warned  total=${#urls[@]}"
+          echo "dead=$dead  unverified=$warned  skipped=$skipped  total=${#urls[@]}"
           if [ "$dead" -gt 0 ]; then
             echo "::error::$dead link(s) are dead for anonymous visitors."
             exit 1
