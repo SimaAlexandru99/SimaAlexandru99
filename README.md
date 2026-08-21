@@ -96,8 +96,6 @@ Things you can actually open and read:
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=SimaAlexandru99&theme=tokyonight&hide_border=true)](https://github.com/SimaAlexandru99)
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SimaAlexandru99/SimaAlexandru99/output/github-contribution-grid-snake.svg">
